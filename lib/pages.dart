@@ -10,7 +10,7 @@ class FirstPage extends StatelessWidget {
           'FirstPage',
           style: TextStyle(fontSize: 36.0),
         ),
-        elevation: 4.0,
+        elevation: 0.0,
       ),
       body: Center(
         child: MaterialButton(
@@ -40,7 +40,7 @@ class SecondPage extends StatelessWidget {
         title: Text('SecondPage', style: TextStyle(fontSize: 36.0)),
         backgroundColor: Colors.pinkAccent,
         leading: Container(),
-        elevation: 4.0,
+        elevation: 0.0,
       ),
       body: Center(
         child: MaterialButton(
